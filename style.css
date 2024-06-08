@@ -1,5 +1,5 @@
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ffffffb8, #E3FDFD);
+  background: linear-gradient(300deg, #71C9CE, #ffffffb8, #E3FDFD);
   background-size: 180% 180%;
   animation: gradient-animation 20s ease infinite;
 }
@@ -18,4 +18,12 @@
 
 a{
   text-decoration: none !important;
+}
+
+.custom {
+  width: 140px !important;
+}
+
+#education a{
+  background-color: #E3FDFD;
 }
