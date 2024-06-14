@@ -7,6 +7,9 @@
 
     <link href="style.css" rel="stylesheet" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
   
@@ -14,7 +17,8 @@
     <section id="title" class="gradient-background">
         <div class="px-4 py-5 mb-5 text-center">
             <img class="d-block mx-auto mb-4 rounded-circle" src="Images/Profile-Photo.png" alt=""  height="230">
-            <h1 class="display-5 fw-bold text-body-emphasis">Hello! <br> I'm Shirish <br> A Software Developer</h1>
+            <h1 class="display-5 libre-baskerville-regular-italic">Hello! <br> I'm Shirish</h1>
+            <h1 class="mt-3 ">A Software Developer</h1>
             <div class="col-lg-6 mx-auto">
               <p class="lead mb-4">
                 I am a final-year B.Tech student in Electronics and Communication with expertise in robotics, web development, and machine learning. I have hands-on experience in developing machine learning models and a strong background in electronics system design. Skilled in both front-end and back-end web development, I can build responsive and user-friendly applications. Eager to join the software industry, I am passionate about integrating software solutions with electronic systems and committed to continuous learning to contribute effectively to a dynamic team.</p>
@@ -176,7 +180,7 @@
         <h2 class="pb-2 border-bottom mb-5">Projects</h2>
 
         <div class="row align-items-md-stretch">
-          <div class="col-md-6">
+          <div class="col-md-6 mb-4">
             <div class="h-100 p-5 bg-light border rounded-3">
               <h3>Omni-wheel Bike </h3>
               <p>Almost completed building an Omni-Wheel Bike that balances itself in forward and left-right movement.</p>
@@ -189,7 +193,7 @@
               </svg></button></a>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-4">
             <div class="h-100 p-5 bg-light border rounded-3">
               <h3>Crop-Disease Detection</h3>
               <p>Developed and deployed a machine learning model for crop disease detection in single and multiple crops.</p>
@@ -207,7 +211,7 @@
           </div>
         </div>
         <div class="row align-items-md-stretch">
-          <div class="col-md-6">
+          <div class="col-md-6 mb-4">
             <div class="h-100 p-5 bg-light border rounded-3">
               <h3>Personal Website</h3>
               <p>Created a personal website from scratch using HTML and CSS.</p>
@@ -220,7 +224,7 @@
               </svg></button></a>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-4">
             <div class="h-100 p-5 bg-light border rounded-3">
               <h3>Room Conditions Monitoring</h3>
               <p>IoT project for detection of room conditions such as temperature, humidity and pressure.</p>
@@ -284,16 +288,7 @@
             </div>
             <div>
               <h3 class="fw-normal">The Complete 2024 Web Development Bootcamp</h3>
-              <a href="#" class="btn btn-secondary">Certificate</a>
-            </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-              <img src="./Logos/icons8-certificate-48.png" alt="Certificate logo" />
-            </div>
-            <div>
-              <h3 class="fw-normal">AcmeGrade Training Program</h3>
-              <a href="./Supporting_Files/Files/AcmeGrade Certificate.jpg" class="btn btn-secondary">Certificate</a>
+              <a href="#" class="btn btn-outline-secondary btn-light text-dark">View</a>
             </div>
           </div>
           <div class="col d-flex align-items-start">
@@ -302,7 +297,16 @@
             </div>
             <div>
               <h3 class="fw-normal">Eyantra Robotics Competition</h3>
-              <a href="./Supporting_Files/Files/E-yantra_Certificate.pdf" class="btn btn-secondary">Certificate</a>
+              <a href="./Supporting_Files/Files/E-yantra_Certificate.pdf" class="btn btn-outline-secondary btn-light text-dark">View</a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <img src="./Logos/icons8-certificate-48.png" alt="Certificate logo" />
+            </div>
+            <div>
+              <h3 class="fw-normal">AcmeGrade Training Program</h3>
+              <a href="./Supporting_Files/Files/AcmeGrade Certificate.jpg" class="btn btn-outline-secondary btn-light text-dark">View</a>
             </div>
           </div>
         </div>
@@ -313,11 +317,11 @@
     <!--Contacts-->
     <section id="contacts">
       <div class="px-4 pb-5 mb-5 text-center">
-        <h1 class="display-5 fw-bold mb-4">Get in Touch</h1>
+        <h1 class="display-5 fw-bolder mb-4">Get in Touch</h1>
         <div class="col-lg-6 mx-auto">
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="mailto:shirish.professional@gmail.com"><button class="btn btn-light btn-lg custom" type="button">Mail <img src="./Logos/icons8-mail-94.png" height="24"/></button></a>
-            <a href="https://www.linkedin.com/in/shirish-bobde-2bbb522b7/"><button class="btn btn-light btn-lg custom" type="button">LinkedIn <img src="./Logos/icons8-linkedin-48.png" height="24"/></button></a>
+            <a href="mailto:shirish.professional@gmail.com"><button class="btn btn-light btn-lg btnSize" type="button">Mail <img class="mb-1" src="./Logos/icons8-mail-94.png" height="24"/></button></a>
+            <a href="https://www.linkedin.com/in/shirish-bobde-2bbb522b7/"><button class="btn btn-light btn-lg btnSize" type="button">LinkedIn <img class="mb-1" src="./Logos/icons8-linkedin-48.png" height="24"/></button></a>
           </div>
         </div>
       </div> 
@@ -328,10 +332,10 @@
     <section id="footer" class="gradient-background">
       <div class="px-4 py-5 text-center">
           <div class="flex-column">
-            <a class="mx-5"  href="https://www.linkedin.com/in/angela-yu-963a584b/" >GitHub</a>
-            <a class="mx-5" href="https://twitter.com/yu_angela">X</a>
-            <a class="mx-5" href="https://www.appbrewery.com/">GFG</a>
-            <a class="mx-5" href="https://www.appbrewery.com/">LeetCode</a>
+            <a class="mx-5 text-dark"  href="https://github.com/CodeWizard812" >GitHub</a>
+            <a class="mx-5 text-dark" href="https://x.com/ShirishBobde">X</a>
+            <a class="mx-5 text-dark" href="https://www.geeksforgeeks.org/user/codewizard812/">GFG</a>
+            <a class="mx-5 text-dark" href="https://leetcode.com/u/CodeWizard81212/">LeetCode</a>
           </div>
           <p class="mt-5 mb-0 text-body-secondary align-items-end">© Shirish</p>
       </div>

@@ -20,10 +20,12 @@ a{
   text-decoration: none !important;
 }
 
-.custom {
+.btnSize {
   width: 140px !important;
 }
 
-#education a{
-  background-color: #E3FDFD;
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
 }
